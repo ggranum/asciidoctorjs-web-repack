@@ -16,6 +16,33 @@ Dan Allen <https://github.com/mojavelinux[@mojavelinux]>; Guillaume Grossetie <h
 
 Please see https://github.com/asciidoctor/asciidoctor.js[^]
 
+I just host and maintain this repackaging, all rights and development credit goes to the original authors.
+
+## Use
+
+    $ npm install --save asciidoctorjs-web-repack
+
+For HTML
+```html
+  <script src="node_modules/asciidoctorjs-web-repack/asciidoctor-all.min.js"></script>
+  <!-- If you need docbook backends -->
+  <script src="node_modules/asciidoctorjs-web-repack/asciidoctor-docbook.min.js"></script>
+```
+
+For Typescript projects:
+
+```js
+  import 'asciidoctorjs-web-repack';
+
+  let Opal:any = window['Opal'] // prevent declaration error.
+  var content = "http://asciidoctor.org[*Asciidoctor*] " +
+      "running on http://opalrb.org[_Opal_] " +
+      "brings AsciiDoc to the browser!";
+  var options = Opal.hash({doctype: 'inline', attributes: ['showtitle']});
+  var html = Opal.Asciidoctor.$convert(content, options); // <1>
+  console.log(html); // <2>
+
+```
 ## Copyright
 
 Copyright (C) 2016 Dan Allen, Guillaume Grossetie, Anthonny Quérouil and the Asciidoctor Project.
