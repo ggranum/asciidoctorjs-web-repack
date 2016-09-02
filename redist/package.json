@@ -1,9 +1,11 @@
 {
   "name": "asciidoctorjs-web-repack",
-  "version": "1.5.5-2.3",
+  "version": "1.5.5-2.4",
   "description": "Web-only repackaging of the asciidoctor.js project.",
   "main": "dist/asciidoctor-all.min.js",
-  "engines" : { "node" : ">=0.12" },
+  "engines": {
+    "node": ">=0.12"
+  },
   "files": [
     "asciidoctor.js",
     "asciidoctor-all.js",
