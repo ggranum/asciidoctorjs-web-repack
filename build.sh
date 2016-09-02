@@ -2,6 +2,7 @@
 
 # npm logout
 npm install
+cp bower_components/asciidoctor.js/LICENSE ./redist/LICENSE
 cp bower_components/asciidoctor.js/README.adoc ./redist/ASCIIDOCTOR_README.adoc
 cp -R bower_components/asciidoctor.js/dist/ ./redist/
 cd redist
