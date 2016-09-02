@@ -1,0 +1,68 @@
+{
+  "name": "asciidoctorjs-web-repack",
+  "version": "1.5.5-2",
+  "description": "Web-only repackaging of the asciidoctor.js project.",
+  "main": "dist/asciidoctor-all.min.js",
+  "engines" : { "node" : ">=0.12" },
+  "files": [
+    "../bower_components/dist/asciidoctor.js",
+    "../bower_components/dist/asciidoctor-all.js",
+    "../bower_components/dist/asciidoctor-all.min.js",
+    "../bower_components/dist/asciidoctor-chart-block-macro.js",
+    "../bower_components/dist/asciidoctor-chrome-inline-macro.js",
+    "../bower_components/dist/asciidoctor-core.js",
+    "../bower_components/dist/asciidoctor-core.min.js",
+    "../bower_components/dist/asciidoctor-docbook.js",
+    "../bower_components/dist/asciidoctor-docbook.min.js",
+    "../bower_components/dist/asciidoctor-emoji-inline-macro.js",
+    "../bower_components/dist/asciidoctor-extensions.js",
+    "../bower_components/dist/asciidoctor-extensions.min.js",
+    "../bower_components/dist/asciidoctor-man-inline-macro.js",
+    "../bower_components/dist/css/asciidoctor.css",
+    "../bower_components/LICENSE",
+    "README.adoc",
+    "ASCIIDOCTOR_README.adoc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggranum/asciidoctorjs-web-repack.git"
+  },
+  "keywords": [
+    "asciidoc",
+    "asciidoctor",
+    "opal",
+    "javascript",
+    "library"
+  ],
+  "authors": [
+    "Dan Allen (https://github.com/mojavelinux)",
+    "Guillaume Grossetie (https://github.com/mogztter)",
+    "Anthonny Quérouil (https://github.com/anthonny)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggranum/asciidoctorjs-web-repack/issues"
+  },
+  "homepage": "https://github.com/ggranum/asciidoctorjs-web-repack",
+  "dependencies": {
+    "opal-runtime": "0.10.1-integration2",
+    "xmlhttprequest": "~1.7.0"
+  },
+  "devDependencies": {
+    "async": "^1.5.0",
+    "bower": "^1.5.3",
+    "browserify": "^13.0.0",
+    "colors": "1.1.2",
+    "cross-env": "^1.0.8",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "opal-compiler": "0.10.1-integration2",
+    "phantomjs-prebuilt": "^2.1.7",
+    "tar-fs": "1.11.1",
+    "watchify": "^3.7.0"
+  }
+}

@@ -1,0 +1,24 @@
+# This is a repackage of the asciidoctor.js bower project
+Dan Allen <https://github.com/mojavelinux[@mojavelinux]>; Guillaume Grossetie <https://github.com/mogztter[@mogztter]>; Anthonny Quérouil <https://github.com/anthonny[@anthonny]>
+:idprefix:
+:idseparator: -
+:uri-nodejs: http://nodejs.org
+:uri-opal: http://opalrb.org
+:uri-repo: https://github.com/asciidoctor/asciidoctor.js
+:uri-freesoftware: https://www.gnu.org/philosophy/free-sw.html
+:uri-rel-file-base: link:
+:uri-contribute: {uri-rel-file-base}CONTRIBUTING.adoc
+:uri-user-manual: {uri-rel-file-base}manual.adoc
+:license: {uri-repo}/blob/master/LICENSE
+:experimental:
+:endash:
+
+
+Please see https://github.com/asciidoctor/asciidoctor.js[^], as well as the original {ASCIIDOCTOR_README.adoc}[ASCIIDOCTOR_README] file.
+
+## Copyright
+
+Copyright (C) 2016 Dan Allen, Guillaume Grossetie, Anthonny Quérouil and the Asciidoctor Project.
+Free use of this software is granted under the terms of the MIT License.
+
+See the {LICENSE}[LICENSE] file for details.

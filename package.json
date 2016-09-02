@@ -1,0 +1,14 @@
+{
+  "name": "asciidoctorjs-web-repack-dev",
+  "version": "0.0.1",
+  "description": "Web-only repackaging of the asciidoctor.js project.",
+  "main": "asciidoctor.all.min.js",
+  "scripts": {
+    "postinstall": "bower install asciidoctor.js --save-dev"
+  },
+  "author": "Geoff M. Granum <geoff.granum@gmail.com> (https://geoffgranum.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.5.3"
+  }
+}
