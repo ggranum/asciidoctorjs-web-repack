@@ -32,7 +32,7 @@ For HTML
 For Typescript projects:
 
 ```js
-  import 'asciidoctorjs-web-repack';
+  import 'asciidoctorjs-web-repack/asciidoctor-all.min';
 
   let Opal:any = window['Opal'] // prevent declaration error.
   var content = "http://asciidoctor.org[*Asciidoctor*] " +
@@ -43,6 +43,7 @@ For Typescript projects:
   console.log(html); // <2>
 
 ```
+
 ## Copyright
 
 Copyright (C) 2016 Dan Allen, Guillaume Grossetie, Anthonny Quérouil and the Asciidoctor Project.
