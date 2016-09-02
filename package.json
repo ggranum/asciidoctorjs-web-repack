@@ -1,5 +1,5 @@
 {
-  "name": "asciidoctorjs-web-repack-dev",
+  "name": "asciidoctorjs-web-repack",
   "version": "0.0.1",
   "description": "Web-only repackaging of the asciidoctor.js project.",
   "main": "asciidoctor.all.min.js",
